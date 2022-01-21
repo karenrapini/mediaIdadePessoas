@@ -1,8 +1,8 @@
 package com.exercicios;
 
 public class Pessoa {
-    String nome;
-    int idade;
+    private String nome;
+    private int idade;
 
     public Pessoa(){
 
@@ -19,6 +19,7 @@ public class Pessoa {
 
     public void setNome(String nome) {
         this.nome = nome;
+
     }
 
     public int getIdade() {
